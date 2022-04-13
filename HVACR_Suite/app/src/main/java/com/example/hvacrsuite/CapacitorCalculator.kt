@@ -7,5 +7,6 @@ class CapacitorCalculator : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_capacitor_calculator)
+
     }
 }
