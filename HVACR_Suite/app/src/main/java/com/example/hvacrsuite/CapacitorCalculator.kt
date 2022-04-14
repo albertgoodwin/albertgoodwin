@@ -1,6 +1,5 @@
 package com.example.hvacrsuite
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.hvacrsuite.databinding.ActivityCapacitorCalculatorBinding
@@ -10,10 +9,12 @@ class CapacitorCalculator : AppCompatActivity() {
 
     private lateinit var binding: ActivityCapacitorCalculatorBinding
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityCapacitorCalculatorBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
 
 
         binding.button.setOnClickListener {
