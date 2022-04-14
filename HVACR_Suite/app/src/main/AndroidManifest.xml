@@ -10,12 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HVACRSuite">
         <activity
+            android:name=".flowchart"
+            android:exported="false"
+            android:label="@string/FlowchartTitle">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+    </activity>
+        <activity
             android:name=".CapacitorCalculator"
-            android:exported="false">
+            android:exported="false"
+            android:label="@string/CapCalcTitle">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
-            </activity>
+                android:value=".MainActivity" />
+        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">

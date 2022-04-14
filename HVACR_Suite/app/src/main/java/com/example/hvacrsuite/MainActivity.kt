@@ -14,10 +14,13 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
             setContentView(binding.root)
 
-        binding.launchCapacitorCalc.setOnClickListener{
-            val intent = Intent( this,CapacitorCalculator::class.java)
+        binding.launchCapacitorCalc.setOnClickListener {
+            val intent = Intent(this, CapacitorCalculator::class.java)
             startActivity(intent)
-
+        }
+        binding.launchFlowchart.setOnClickListener{
+            val intent = Intent( this,flowchart::class.java)
+            startActivity(intent)
 
 
         }

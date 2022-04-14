@@ -4,4 +4,15 @@
     <string name="voltage_across_capacitor">Voltage Across Capacitor</string>
     <string name="start_winding_amps">Start Winding Amps</string>
     <string name="capacitor_calculator_btn">Capacitor Calculator</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="result_uf">Result (uF):</string>
+    <string name="launch_flowchart">Launch Flowchart</string>
+    <string name="CapCalcTitle">Capacitor Calculator</string>
+    <string name="FlowchartTitle">Flow Chart</string>
+    <string name="question1">Is the AC Cooling?</string>
+    <string name="question2">Does cycling the power solve the problem?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="question3">YAY!! You did it!</string>
+    <string name="Home">Home</string>
 </resources>
